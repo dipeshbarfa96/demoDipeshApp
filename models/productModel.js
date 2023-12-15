@@ -1,5 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
 
+// this is a model page
     const Product = sequelize.define("product", {
     
         title: {
