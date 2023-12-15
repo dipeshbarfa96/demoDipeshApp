@@ -12,6 +12,7 @@ const Review = db.reviews
 const addProduct = async (req, res) => {
     // this is a coment
     // const { title, price,description,published} = req.body;
+    // this is new coment
      console.log(req.body)
     // Create a new product with the provided title
     const newProduct = await Product.create({
